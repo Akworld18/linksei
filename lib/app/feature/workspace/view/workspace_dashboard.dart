@@ -8,7 +8,6 @@ import 'package:linksei/app/core/utils/custom_list_animation.dart';
 import 'package:linksei/app/feature/workspace/view/create_workspace.dart';
 import 'package:linksei/app/feature/workspace/view/workspace_screen.dart';
 
-
 class WorkspaceDashboard extends StatefulWidget {
   const WorkspaceDashboard({super.key});
 
@@ -203,7 +202,9 @@ class _WorkspaceDashboardState extends State<WorkspaceDashboard>
                                                     SizedBox(width: 5),
                                                     Text(
                                                       "2 ",
-                                                      style: CustomTextStyles().blackOpacity600Text(18),
+                                                      style: CustomTextStyles()
+                                                          .blackOpacity600Text(
+                                                              18),
                                                     ),
                                                     Text(
                                                       i == 0
@@ -211,7 +212,9 @@ class _WorkspaceDashboardState extends State<WorkspaceDashboard>
                                                           : i == 1
                                                               ? "links  "
                                                               : "clicks  ",
-                                                      style: CustomTextStyles().blackOpacity600Text(16),
+                                                      style: CustomTextStyles()
+                                                          .blackOpacity600Text(
+                                                              16),
                                                     ),
                                                   ],
                                                 ),
